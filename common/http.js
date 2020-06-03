@@ -24,6 +24,7 @@ import urlConfig from './config.js'
 				...config.header,
 			}
 			const newConfig = {
+				...Util.defaultConfig,
 				header,
 				method,
 				...config,
