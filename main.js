@@ -6,6 +6,11 @@ Vue.config.productionTip = false
 Vue.prototype.$api = api;
 App.mpType = 'app'
 
+
+// 我再master 分支下，提交的文件
+
+
+
 const app = new Vue({
     ...App
 })
